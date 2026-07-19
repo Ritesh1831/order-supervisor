@@ -1,0 +1,19 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+backend/.venv/
+
+# env (keep the .example files, ignore real ones)
+.env
+.env.*.local
+
+# node / next
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/tsconfig.tsbuildinfo
+
+# misc
+.DS_Store
+*.log
